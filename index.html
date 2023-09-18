@@ -135,19 +135,6 @@
                     </div>
                 </div>
 
-                <!--
-                <div class="projects-row">
-                    <div class="projects-img-container">
-                        <img src="assets/project.webp" alt="Project 3" class="projects-row-img"/>
-                    </div>
-                    <div class="projects__row-content">
-                        <h3 class="projects-title">Project 3</h3>
-                        <p class="projects-description">
-                        Description of Project 3.
-                        </p>
-                        <a class='btn-project-item' href='/project-4' target='_blank'>View on Github</a>
-                    </div>
-                </div> -->
                 <div class="projects-all-btn-container">
                     <a target="_blank" rel="noreferrer" href="https://github.com/GavinMaynard17" class="btn-primary-big">All Projects</a>
                 </div>
@@ -163,25 +150,39 @@
                 Send me a message and I will get back to you as soon as possible!
                 </span>
             </h2>
+            
             <div class="contact-form-container">
+                <form action="process_form.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" required><br>
+                    <label for="message">Message:</label>
+                    <textarea name="message" required></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+                
                 <form action='#' class='contact__form' method='post'><input type='hidden' name='form-name' value='form 1' />
                 <div class="contact-form-field">
                     <label class="contact-form-label" for="name">Name</label>
-                    <input required placeholder="Enter Your Name" type="text" class="contact-form-input" name="name"
-                    id="name"/>
+                    <input class="contact-form-input" type="text" name="name" id="name" required placeholder="Enter Your Name"/>
+
+                    
                 </div>
                 <div class="contact-form-field">
                     <label class="contact-form-label" for="email">Email</label>
-                    <input required placeholder="Enter Your Email" type="email" class="contact-form-input" name="email"
-                    id="email"/>
+                    <input class="contact-form-input" type="email" name="email" id="email" required placeholder="Enter Your Email"/>
+
+                    
                 </div>
                 <div class="contact-form-field">
-                    <label class="contact-form-label" for="message">Message</label>
-                    <textarea required cols="30" rows="10" class="contact-form-input" placeholder="Enter Your Message"
-                    name="message" id="message"></textarea>
+                    <label class="contact-form-label" for="message">Message:</label>
+                    <textarea class="contact-form-input" cols="30" rows="10" name="message" id="message" required placeholder="Enter Your Message"></textarea>
+                    
+                    
                 </div>
                 <div class="contact-btn-container">
-                    <button type="submit" class="contact-btn">Submit</button>
+                    <input class="contact-btn" type="submit" value="Submit">
                 </div>
                 </form>
             </div>
