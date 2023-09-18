@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gavin Maynard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-content">
+            <div class="header-content-container">
+                <div class="header-img-container">
+                    <img src="assets/IMG_7814.JPG" alt="Image" class="header-logo-img"/>
+                </div>
+                <span class="header-name">Gavin Maynard</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-heading">Hey, I'm Gavin Maynard</h1>
+            <div class="hero-info">
+                <p class="hero-sub">
+                Full stack Software Developer based in the USA. 
+                </p>
+            </div>
+            <div class="hero-btn-container">
+                <a href="#projects" class="btn-primary-big">Projects</a>
+            </div>
+        </div>
+            <div class="hero-mouse-container">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+
+    <section id="about" class="about section-padding">
+        <div class="section-container">
+            <h2 class="heading heading-sec heading-margin">
+                <span class="heading-section-title">About Me</span>
+            </h2>
+            <div class="about-content">
+                <div class="about-content-main">
+                    <div class="about-content-details">
+                        <p class="about-paragraph">
+                        I'm a <strong>full stack software developer</strong>. Check out some of my work in the <a href="#projects">Projects</a> section.
+                        </p>
+                        <p class="about-paragraph">
+                        </p>
+                        <p class="about-paragraph">
+                        I'm open to job opportunities where I can
+                        contribute, learn and grow with the company. If you want to follow or be a part of my career
+                        journey, follow me on <a rel="noreferrer" href="https://linkedin.com/in/rammcodes" target="_blank">Linkedin</a> for updates.
+                        </p>
+                    </div>
+                    <div class="about-btn-group">
+                        <a href="#contact" class="btn-secondary-medium">Contact</a>
+                        <a href="#contact" class="btn-primary-medium">Download CV</a>
+                    </div>
+                </div>
+                <div class="about-skills-section">
+                    <h3 class="about-skills-title">My Skills</h3>
+                    <div class="skills-container">
+                        <div class="skill">HTML</div>
+                        <div class="skill">CSS</div>
+                        <div class="skill">JavaScript</div>
+                        <div class="skill">Java</div>
+                        <div class="skill">Python</div>
+                        <div class="skill">C#</div>
+                        <div class="skill">Svelte</div>
+                        <div class="skill">XAML</div>
+                        <div class="skill">XML</div>
+                        <div class="skill">SQL</div>
+                        <div class="skill">Jengo</div>
+                        <div class="skill">Databases</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section-padding">
+        <div class="section-container">
+            <h2 class="heading heading-sec projects-heading-margin">
+                <span class="heading-section-title">Projects</span>
+            </h2>
+            <div class="projects-content">
+                <div class="projects-row">
+                    <div class="projects-img-container">
+                        <img src="assets/project.webp" alt="Project 1" class="projects-row-img"/>
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects-title">Project 1</h3>
+                        <p class="projects-description">
+                        Description of Project 1.
+                        </p>
+                        <a class='btn-project-item' href='/project-3' target='_blank'>View on Github</a>
+                    </div>
+                </div>
+                <div class="projects-row">
+                    <div class="projects-img-container">
+                        <img src="assets/project.webp" alt="Project 2" class="projects-row-img"/>
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects-title">Project 2</h3>
+                        <p class="projects-description">
+                        Description of Project 2.
+                        </p>
+                        <a class='btn-project-item' href='/project-4' target='_blank'>View on Github</a>
+                    </div>
+                </div>
+                <div class="projects-row">
+                    <div class="projects-img-container">
+                        <img src="assets/project.webp" alt="Project 3" class="projects-row-img"/>
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects-title">Project 3</h3>
+                        <p class="projects-description">
+                        Description of Project 3.
+                        </p>
+                        <a class='btn-project-item' href='/project-4' target='_blank'>View on Github</a>
+                    </div>
+                </div>
+                <div class="projects-all-btn-container">
+                    <a href="#projects" class="btn-primary-big">All Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-padding">
+        <div class="section-container">
+            <h2 class="heading heading-sec heading-margin">
+                <span class="heading-section-title ">Contact</span>
+                <span class="heading-section-sub ">
+                Send me a message and I will get back to you as soon as possible!
+                </span>
+            </h2>
+            <div class="contact-form-container">
+                <form action='#' class='contact__form' method='post'><input type='hidden' name='form-name' value='form 1' />
+                <div class="contact-form-field">
+                    <label class="contact-form-label" for="name">Name</label>
+                    <input required placeholder="Enter Your Name" type="text" class="contact-form-input" name="name"
+                    id="name"/>
+                </div>
+                <div class="contact-form-field">
+                    <label class="contact-form-label" for="email">Email</label>
+                    <input required placeholder="Enter Your Email" type="email" class="contact-form-input" name="email"
+                    id="email"/>
+                </div>
+                <div class="contact-form-field">
+                    <label class="contact-form-label" for="message">Message</label>
+                    <textarea required cols="30" rows="10" class="contact-form-input" placeholder="Enter Your Message"
+                    name="message" id="message"></textarea>
+                </div>
+                <div class="contact-btn-container">
+                    <button type="submit" class="contact-btn">Submit</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="section-container">
+            <div class="footer-upper">
+                <h2 class="footer-heading">
+                    <span>Socials</span>
+                </h2>
+                <div class="footer-socials">
+                    <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/rammcodes">
+                        <img class="footer-social-icon" src="assets/github.svg" alt="Github" />
+                    </a>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/rammcodes">
+                        <img class="footer-social-icon" src="assets/linkedin.svg" alt="Linkedin" />
+                    </a>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/rammcodes">
+                        <img class="footer-social-icon" src="assets/twitter.svg" alt="Twitter"</a>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/rammcodes">
+                        <img class="footer-social-icon" src="assets/instagram.svg" alt="Instagram" />
+                    </a>
+                </div>
+            </div>
+            <div class="footer-lower">
+                &copy; Copyright <script>document.write(new Date().getFullYear())</script>. Made by Gavin Maynard.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
